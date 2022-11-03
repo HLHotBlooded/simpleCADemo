@@ -1,2 +1,2 @@
-# simpleCADemo
-Do Custom activity
+# customJB
+Custom Journey Builder activity repository
