@@ -8,7 +8,7 @@
 	"type": "REST",
 	"lang": {
 		"en-US": {
-			"name": "Claim Code",
+			"name": "Chanel Claim Code",
 			"description": "A custom Journey Builder activity that will assign Codes to customers. This activity will POST (Journey Data) to a URL when contact reaches this node in journey.",
 			"step1Label": "Configure Web Hook Custom Activity"
 		}
@@ -20,7 +20,7 @@
             			"zone": "{{Contact.Attribute.BluedotLocationKE.ZoneName}}"
 			}],
 			"outArguments": [],
-			"url": "https://ar-game-poc.herokuapp.com/journeybuilder/execute",
+			"url": "https://chanelline.herokuapp.com/journeybuilder/execute",
 			"verb": "POST",
 			"body": "",
 			"header": "",
@@ -30,27 +30,27 @@
 		}
 	},
 	"configurationArguments": {
-		"applicationExtensionKey": "ff0510c9-a075-4fb1-acef-5b2e659db722",
+		"applicationExtensionKey": "cad2ebcf-7e8f-4172-a4ee-82974534163b",
 		"save": {
-			"url": "https://ar-game-poc.herokuapp.com/journeybuilder/save",
+			"url": "https://chanelline.herokuapp.com/journeybuilder/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
 		},
 		"publish": {
-			"url": "https://ar-game-poc.herokuapp.com/journeybuilder/publish",
+			"url": "https://chanelline.herokuapp.com/journeybuilder/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
 		},
 		"stop": {
-			"url": "https://ar-game-poc.herokuapp.com/journeybuilder/stop",
+			"url": "https://chanelline.herokuapp.com/journeybuilder/stop",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
 		},
 		"validate": {
-			"url": "https://ar-game-poc.herokuapp.com/journeybuilder/validate",
+			"url": "https://chanelline.herokuapp.com/journeybuilder/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
